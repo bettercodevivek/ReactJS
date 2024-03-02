@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./navbar";
 import About from "./About";
+import Skills from "./Skills";
 import "./App.css";
 function App(){
   return (
@@ -12,6 +13,7 @@ function App(){
      <button id="hire-button">Hire Me!</button>
     </div>
     <About />
+    <Skills />
    </div>
   );
 }
