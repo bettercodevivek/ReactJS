@@ -1,6 +1,6 @@
-import React from "react";
 import './navbar.css';
-function navbar(){
+
+function Navbar(){
     return (
         <div className="navbar">
             <a href="#">home</a>
@@ -13,4 +13,4 @@ function navbar(){
     );
 }
 
-export default navbar;
+export default Navbar;

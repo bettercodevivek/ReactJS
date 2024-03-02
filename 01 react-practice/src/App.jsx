@@ -1,8 +1,9 @@
-import navbar from './navbar';
-function walter(){
+import React from "react";
+import Navbar from "./navbar";
+function App(){
   return (
    <div className="main">
-    <navbar/>
+    <Navbar />
     <ol className="list1">
       <li className="item">delhi</li>
       <li className="item">pune</li>
@@ -13,4 +14,6 @@ function walter(){
   );
 }
 
-export default walter;
+export default App;
+
+// In react, the function name should start with capital letter otherwise when exported and imported its values is never read.
