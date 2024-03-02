@@ -1,0 +1,18 @@
+.About-Mainpage{
+    position:relative;
+    top:50vh;
+    left:-1.3dvh;
+    background:#ffebbb;
+}
+
+h1{
+    position:relative;
+    top:2vh;
+    text-align:center;
+}
+
+.about-para{
+    font-size:1.7rem;
+    text-align:center;
+    width:100vw;
+}

@@ -11,6 +11,7 @@ function App(){
      <h3>I am a FrontEnd Developer.</h3>
      <button id="hire-button">Hire Me!</button>
     </div>
+    <About />
    </div>
   );
 }
