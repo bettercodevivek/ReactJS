@@ -5,6 +5,7 @@ function About(){
 
      <div className='About-Mainpage'>
       <h1>ABOUT ME</h1>
+      <div id="line"></div>
       <p className="about-para">
       Hey! <span>&#128075;</span> I'm a computer science undergrad on a mission to turn caffeine into code.
        From hacking away at late-night coding sessions to unraveling the mysteries of algorithms, 

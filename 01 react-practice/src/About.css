@@ -1,5 +1,7 @@
 .About-Mainpage{
     position:relative;
+    height:80dvh;
+    width:100dvw;
     top:50vh;
     left:-1.3dvh;
     background:#ffebbb;
@@ -7,7 +9,7 @@
 
 h1{
     position:relative;
-    top:2vh;
+    top:5vh;
     text-align:center;
 }
 
@@ -15,4 +17,15 @@ h1{
     font-size:1.7rem;
     text-align:center;
     width:100vw;
+    margin-top:10vh;
 }
+
+#line{
+    height:0.6vh;
+    width:13vw;
+    background:black;
+    position:relative;
+    left: 43.5%;
+    top:1dvh;
+}
+
