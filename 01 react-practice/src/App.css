@@ -1,0 +1,26 @@
+body{
+    background:#eaf6f6;
+}
+
+.content-page-1{
+    position:relative;
+    top:35dvh;
+    font-size:1.6rem;
+    text-align:center;
+}
+
+#hire-button{
+    padding-top:0.8rem;
+    padding-bottom:0.8rem;
+    padding-left: 4rem;
+    padding-right:4rem;
+    border-style:solid;
+    border-radius:10px;
+    background:inherit;
+    font-weight:700;
+    font-size:1rem;
+}
+
+#hire-button:hover{
+    cursor:pointer;
+}

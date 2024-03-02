@@ -1,9 +1,15 @@
 import React from "react";
 import Navbar from "./navbar";
+import "./App.css";
 function App(){
   return (
    <div className="main">
     <Navbar />
+    <div className="content-page-1">
+     <h1>Hello, I am 'Your-Name'.</h1>
+     <h3>I am a FrontEnd Developer.</h3>
+     <button id="hire-button">Hire Me!</button>
+    </div>
    </div>
   );
 }
