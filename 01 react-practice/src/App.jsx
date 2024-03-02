@@ -1,6 +1,8 @@
+import navbar from './navbar';
 function walter(){
   return (
    <div className="main">
+    <navbar/>
     <ol className="list1">
       <li className="item">delhi</li>
       <li className="item">pune</li>
@@ -11,4 +13,4 @@ function walter(){
   );
 }
 
-export default walter
+export default walter;
