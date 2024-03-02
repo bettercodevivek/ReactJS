@@ -1,7 +1,37 @@
 .Skills-mainpage{
-    height:100dvh;
+    height:120dvh;
     width:100dvw;
     position:relative;
     top:46vh;
     background:#e0ffcd;
+}
+
+.skills-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    height:100dvh;
+    width:40dvw;
+    margin-left:30%;
+    margin-top:5%;
+}
+
+.skill-item{
+    height:20dvh;
+    width:10vw;
+    border-style:solid;
+    border-radius:13px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.icon{
+    height:16vh;
+    object-fit:fill;
+}
+
+h1{
+    font-size:2rem;
 }
