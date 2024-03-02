@@ -3,12 +3,11 @@ import './navbar.css';
 function Navbar(){
     return (
         <div className="navbar">
-            <a href="#">home</a>
-            <a href="#">home</a>
-            <a href="#">home</a>
-            <a href="#">home</a>
-            <a href="#">home</a>
-            <a href="#">home</a>
+            <button className='name-logo'>Your Name</button>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Skills</a>
+            <a href="#">Contact Me</a>
         </div>
     );
 }

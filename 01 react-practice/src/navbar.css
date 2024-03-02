@@ -2,6 +2,23 @@
     display:flex;
     flex-direction:row;
     align-items:center;
-    justify-content:space-evenly;
-    background:gold;
+    justify-content:right;
+    background:inherit;
+    width:100dvw;
+    position:fixed;
+    top:5dvh;
+    left:0;
+}
+
+.navbar a{
+    font-size:1.5rem;
+    padding-left:2rem;
+    padding-right:2.5rem;
+}
+
+.name-logo{
+    background:inherit;
+    border:none;
+    font-size:2rem;
+    margin-right:40dvw;
 }
