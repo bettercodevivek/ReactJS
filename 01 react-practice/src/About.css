@@ -5,6 +5,7 @@
     top:50vh;
     left:-1.3dvh;
     background:#ffebbb;
+    z-index:0;
 }
 
 h1{
@@ -26,6 +27,6 @@ h1{
     background:black;
     position:relative;
     left: 43.5%;
-    top:1dvh;
+    top:-1.2rem;
 }
 

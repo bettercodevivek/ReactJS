@@ -3,9 +3,10 @@ body{
 }
 .main{
     position:relative;
-    left:-1.3dvh;
+    left:-1rem;
     height:100dvh;
     width:100dvw;
+    z-index:0;
     background:#eaf6f6;
 }
 .content-page-1{
@@ -14,7 +15,9 @@ body{
     font-size:1.6rem;
     text-align:center;
 }
-
+h1{
+    padding-bottom:2rem;
+}
 #hire-button{
     padding-top:0.8rem;
     padding-bottom:0.8rem;

@@ -3,9 +3,66 @@ import './Projects.css';
 function Projects(){
     return (
      <div className='projects-mainpage'>
-        <div className='project-container'>
-            Hello
+        <div className='project-container-1'>
+            <div className='project-description-container'>
+                <h1 className='project-title'>Project-1</h1>
+                <p id='description-1' className='project-description'>
+                Introducing WeatherWise, a cutting-edge weather app revolutionizing forecasts with React Native and OpenWeatherMap API. 
+                Enjoy hyper-local precision, interactive maps, and real-time alerts for seamless preparedness.
+                 React Native's versatility ensures an intuitive interface, while OpenWeatherMap API delivers accurate,
+                  up-to-the-minute data. Plan your day effortlessly with Sunrise and Sunset Planner, extended forecasts,
+                   and global weather insights. WeatherWise prioritizes user experience,
+                    offering personalized themes for a visually appealing touch. Don't just check the weather;
+                     experience it with the power of React Native and OpenWeatherMap API. Download WeatherWise now for a smarter,
+                      more informed approach to weather tracking. 🌦️📱 #WeatherWise #ReactNative #OpenWeatherMapAPI
+                </p>
+            </div>
+            <div className='project-preview'>
+                <img className='project-screenshot' src='src\assets\project-1-demo-image.jpg'>
+                </img>
+            </div>
         </div>
+
+        <div className='project-container-2'>
+            <div className='project-description-container'>
+                <h1 className='project-title'>Project-2</h1>
+                <p id='description-2' className='project-description'>
+                Introducing WeatherWise, a cutting-edge weather app revolutionizing forecasts with React Native and OpenWeatherMap API. 
+                Enjoy hyper-local precision, interactive maps, and real-time alerts for seamless preparedness.
+                 React Native's versatility ensures an intuitive interface, while OpenWeatherMap API delivers accurate,
+                  up-to-the-minute data. Plan your day effortlessly with Sunrise and Sunset Planner, extended forecasts,
+                   and global weather insights. WeatherWise prioritizes user experience,
+                    offering personalized themes for a visually appealing touch. Don't just check the weather;
+                     experience it with the power of React Native and OpenWeatherMap API. Download WeatherWise now for a smarter,
+                      more informed approach to weather tracking. 🌦️📱 #WeatherWise #ReactNative #OpenWeatherMapAPI
+                </p>
+            </div>
+            <div className='project-preview'>
+                <img className='project-screenshot' src='src\assets\project-2-demo-image.jpg'></img>
+            </div>
+        </div>
+
+        <div className='project-container-3'>
+            <div className='project-description-container'>
+                <h1 className='project-title'>Project-3</h1>
+                <p id='description-3' className='project-description'>
+                Introducing WeatherWise, a cutting-edge weather app revolutionizing forecasts with React Native and OpenWeatherMap API. 
+                Enjoy hyper-local precision, interactive maps, and real-time alerts for seamless preparedness.
+                 React Native's versatility ensures an intuitive interface, while OpenWeatherMap API delivers accurate,
+                  up-to-the-minute data. Plan your day effortlessly with Sunrise and Sunset Planner, extended forecasts,
+                   and global weather insights. WeatherWise prioritizes user experience,
+                    offering personalized themes for a visually appealing touch. Don't just check the weather;
+                     experience it with the power of React Native and OpenWeatherMap API. Download WeatherWise now for a smarter,
+                      more informed approach to weather tracking. 🌦️📱 #WeatherWise #ReactNative #OpenWeatherMapAPI
+                </p>
+            </div>
+            <div className='project-preview'>
+                <img className='project-screenshot' src='src\assets\project-3-demo-image.jpg'></img>
+            </div>
+        </div>
+       <script>
+              
+       </script>
      </div>
     );
 }
