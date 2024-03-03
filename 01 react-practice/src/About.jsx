@@ -5,7 +5,8 @@ function About(){
    
      <div id='About' className='About-Mainpage'>
       <h1 className='About-heading'>ABOUT ME</h1>
-      <div id="line"></div>
+      <div id="line1"></div>
+      <div className='about-paragraph-container'>
       <p className="about-para">
       Hey! <span>&#128075;</span> I'm a computer science undergrad on a mission to turn caffeine into code.
        From hacking away at late-night coding sessions to unraveling the mysteries of algorithms, 
@@ -16,6 +17,7 @@ function About(){
         I love the creative dance between logic and creativity. Ready to bring my tech mojo to the table,
         I'm excited about the next adventure in the ever-evolving world of code. Let's create some digital magic together!
       </p>
+      </div>
      </div>
 
 

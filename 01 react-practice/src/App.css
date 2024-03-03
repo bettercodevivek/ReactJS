@@ -40,4 +40,6 @@ html{
 
 #hire-button:hover{
     cursor:pointer;
+    background:black;
+    color:#eaf6f6;
 }

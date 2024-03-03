@@ -1,8 +1,8 @@
 .Skills-mainpage{
-    height:120dvh;
+    height:130dvh;
     width:100dvw;
     position:relative;
-    top:46vh;
+    top:17rem;
     z-index:0;
     background:#e0ffcd;
 }
@@ -33,7 +33,22 @@
     height:16vh;
     object-fit:fill;
 }
+.skill-item:hover{
+    background:black;
+    cursor:pointer;
+}
 
 .Skills-heading{
     font-size:2rem;
+    text-align:center;
+    padding-top:3rem;
+}
+
+#line2{
+    height:0.4vh;
+    width:14vw;
+    background:black;
+    position:relative;
+    left: 43%;
+    top:-1.5rem;
 }

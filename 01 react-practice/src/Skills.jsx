@@ -3,7 +3,8 @@ import './Skills.css';
 function Skills(){
     return(
     <div id='Skills' className='Skills-mainpage'>
-        <h1 className='Skills-heading'>My Skills</h1>
+        <h1 className='Skills-heading'>MY SKILLS</h1>
+        <div id="line2"></div>
         <div className='skills-container'>
             <div className='skill-item'>
                 <img className="icon" src="src\assets\git-svgrepo-com.svg " alt="GIT"></img>

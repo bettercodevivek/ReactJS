@@ -1,9 +1,8 @@
 .About-Mainpage{
     position:relative;
-    height:80dvh;
+    height:85dvh;
     width:100dvw;
-    top:50vh;
-    left:-1.3dvh;
+    top:18.5rem;
     background:#ffebbb;
     z-index:0;
 }
@@ -15,13 +14,21 @@
 }
 
 .about-para{
-    font-size:1.7rem;
-    text-align:center;
-    width:100vw;
+    font-size:1.4rem;
+    text-align:justify;
+    width:70dvw;
     margin-top:10vh;
+    letter-spacing:0.5px;
 }
 
-#line{
+.about-paragraph-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+#line1{
     height:0.6vh;
     width:13vw;
     background:black;
