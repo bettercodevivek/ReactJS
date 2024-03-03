@@ -15,7 +15,7 @@
     padding-left:2rem;
     padding-right:2.5rem;
     text-decoration:none;
-    color:#00204a;
+    color:black;
 }
 
 .name-logo{
@@ -26,4 +26,9 @@
 }
 .name-logo:hover{
     cursor:pointer;
+}
+
+.navbar a:hover{
+     text-decoration:underline;
+     transition:underline 0.25s ease-in-out;
 }
