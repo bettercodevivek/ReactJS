@@ -7,11 +7,11 @@ import Footer from "./Footer";
 import "./App.css";
 function App(){
   return (
-   <div className="main">
+   <div className="Mainpage-1">
     <Navbar />
     <div className="content-page-1">
-     <h1>Hello, I am 'Your-Name'.</h1>
-     <h3>I am a FrontEnd Developer.</h3>
+     <h1 className="introduction-heading-1">Hello, I am 'Your-Name'.</h1>
+     <h3 className="introdcution-heading-3">I am a FrontEnd Developer.</h3>
      <button id="hire-button">Hire Me!</button>
     </div>
     <About />

@@ -4,7 +4,7 @@ function About(){
     return(
    
      <div id='About' className='About-Mainpage'>
-      <h1>ABOUT ME</h1>
+      <h1 className='About-heading'>ABOUT ME</h1>
       <div id="line"></div>
       <p className="about-para">
       Hey! <span>&#128075;</span> I'm a computer science undergrad on a mission to turn caffeine into code.

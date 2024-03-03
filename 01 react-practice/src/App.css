@@ -5,7 +5,7 @@ body{
 html{
     scroll-behavior: smooth;
 }
-.main{
+.Mainpage-1{
     position:relative;
     left:-1rem;
     top:-1rem;
@@ -20,8 +20,11 @@ html{
     font-size:1.6rem;
     text-align:center;
 }
-h1{
-    padding-bottom:2rem;
+.introduction-heading-1{
+    font-size:3rem;
+}
+.introduction-heading-3{
+    font-size:1rem;
 }
 #hire-button{
     padding-top:0.8rem;
