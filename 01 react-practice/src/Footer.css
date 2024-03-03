@@ -1,17 +1,20 @@
 .Footer-mainpage{
-    background:#323643;
+    background:#801336;
     height:80dvh;
     width:100dvw;
     position:relative;
     margin-top:-3rem;
+    color:white;
 }
 
 .footer-title{
     text-align: center;
     font-size:3.5rem;
+    padding-top:3rem;
 }
 
 .footer-paragraph-1{
+    margin-top:-2rem;
     text-align:center;
     font-size:1.5rem;
 }
@@ -23,6 +26,8 @@
     padding-right:3rem;
     font-size:1.2rem;
     border-style:solid;
+    border-color: white;
+    color:white;
     background:inherit;
     position:relative;
     left:38rem;

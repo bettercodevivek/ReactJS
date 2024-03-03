@@ -61,7 +61,7 @@ html{
     box-shadow:6px 6px 10px rgba(0,0,0,0.75);
 }
 
-#color-1,#color-2,#color-3,#color-4,#color-5{
+#color-1,#color-2,#color-3,#color-4{
     border-style:solid;
     height:2rem;
     aspect-ratio:1/1;
@@ -72,7 +72,7 @@ html{
     margin-right:0.2rem;
 }
 
-#color-1:hover,#color-2:hover,#color-3:hover,#color-4:hover,#color-5:hover{
+#color-1:hover,#color-2:hover,#color-3:hover,#color-4:hover{
     cursor:pointer;
 }
 #color-1{
@@ -85,8 +85,5 @@ html{
     background:#7dd87d;
 }
 #color-4{
-    background:#a8e6cf;
-}
-#color-5{
-    background:#c54c82;
+    background:#79c2d0;
 }
