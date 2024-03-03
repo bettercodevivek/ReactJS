@@ -4,10 +4,10 @@ function Navbar(){
     return (
         <div className="navbar">
             <button className='name-logo'>Your Name</button>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Skills</a>
-            <a href="#">Contact Me</a>
+            <a href="#About">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Footer">Contact Me</a>
         </div>
     );
 }

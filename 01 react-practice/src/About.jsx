@@ -2,8 +2,8 @@ import './About.css';
 
 function About(){
     return(
-
-     <div className='About-Mainpage'>
+   
+     <div id='About' className='About-Mainpage'>
       <h1>ABOUT ME</h1>
       <div id="line"></div>
       <p className="about-para">

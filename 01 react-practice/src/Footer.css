@@ -1,8 +1,9 @@
 .Footer-mainpage{
-    background:#1f6f78;
+    background:#757a79;
     height:80dvh;
     width:100dvw;
     position:relative;
+    margin-top:-3rem;
 }
 
 .footer-title{

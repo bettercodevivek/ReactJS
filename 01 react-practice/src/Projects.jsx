@@ -2,7 +2,7 @@ import './Projects.css';
 
 function Projects(){
     return (
-     <div className='projects-mainpage'>
+     <div id='Projects' className='projects-mainpage'>
         <div className='project-container-1'>
             <div className='project-description-container'>
                 <h1 className='project-title'>Project-1</h1>

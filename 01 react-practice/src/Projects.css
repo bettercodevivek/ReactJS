@@ -1,5 +1,5 @@
 .projects-mainpage{
-    height:fit-content;
+    height:220dvh;
     width:100dvw;
     background:#ffe9e3;
     position:relative;
@@ -47,6 +47,7 @@
     border-style:solid;
     border-width:4px;
     border-radius:20px;
+    box-shadow: 8px 4px 8px rgba(0,0,0,0.75);
 }
 
 #description-1,#description-2,#description-3{

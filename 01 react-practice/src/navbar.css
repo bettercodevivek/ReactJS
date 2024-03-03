@@ -5,8 +5,8 @@
     justify-content:right;
     background:inherit;
     width:100dvw;
-    position:relative;
-    top:5dvh;
+    position:sticky;
+    top:2rem;
     left:0;
 }
 
