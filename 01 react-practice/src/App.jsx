@@ -10,6 +10,13 @@ function App(){
    <div className="Mainpage-1">
     <Navbar />
     <div className="content-page-1">
+      <div className="Color-palette-container">
+        <div id="color-1"></div>
+        <div id="color-2"></div>
+        <div id="color-3"></div>
+        <div id="color-4"></div>
+        <div id="color-5"></div>
+      </div>
      <h1 className="introduction-heading-1">Hello, I am 'Your-Name'.</h1>
      <h3 className="introdcution-heading-3">I am a FrontEnd Developer.</h3>
      <button id="hire-button">Hire Me!</button>

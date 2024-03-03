@@ -3,7 +3,8 @@ import './Projects.css';
 function Projects(){
     return (
      <div id='Projects' className='projects-mainpage'>
-        <h1 className='Project-page-title'>Projects</h1>
+        <h1 className='Project-page-title'>PROJECTS</h1>
+        <div id="line3"></div>
         <div className='project-container-1'>
             <div className='project-description-container'>
                 <h1 className='project-title'>Project-1</h1>

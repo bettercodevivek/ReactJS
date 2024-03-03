@@ -9,7 +9,7 @@ function Footer(){
         Thank you for exploring my portfolio.<br></br> I'd love to connect with you!<br></br> Feel free to reach out for collaborations, 
         opportunities, or just to say hello.<br></br>
         </p>
-        <button className='Say-hello-button'>Say Hello</button>
+       <a href='mailto:someone@example.com'> <button className='Say-hello-button'>Say Hello</button></a>
         <div className='social-handle-container'>
             <a href='#' className='github-link' id='github-link'>
                 <img className='github-logo' src='src\assets\github-142-svgrepo-com.svg'></img>

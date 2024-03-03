@@ -42,10 +42,22 @@
     top:3rem;
 }
 
-.github-logo,.instagram-logo,.linkedin-logo{
+.github-logo,.instagram-logo{
     height:8dvh;
+    aspect-ratio:1/1;
+}
+
+.linkedin-logo{
+    height:11dvh;
+    aspect-ratio:1/1;
 }
 
 .github-logo:hover,.instagram-logo:hover,.linkedin-logo:hover{
     filter:invert();
+}
+
+.Say-hello-button:hover{
+    cursor:pointer;
+    background:black;
+    color:white;
 }
