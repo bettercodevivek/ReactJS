@@ -29,6 +29,10 @@ function App(){
   );
 }
 
+// document.querySelector('#color-1').addEventListener('click',function(){
+//   console.log('color-1 working boss');
+// });
+
 export default App;
 
 // In react, the function name should start with capital letter otherwise when exported and imported its values is never read.
