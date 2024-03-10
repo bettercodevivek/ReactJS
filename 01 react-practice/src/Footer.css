@@ -4,7 +4,7 @@
     width:100dvw;
     position:relative;
     margin-top:-3rem;
-    color:white;
+    color:black;
 }
 
 .footer-title{
@@ -26,8 +26,8 @@
     padding-right:3rem;
     font-size:1.2rem;
     border-style:solid;
-    border-color: white;
-    color:white;
+    border-color: black;
+    color:black;
     background:inherit;
     position:relative;
     left:38rem;

@@ -29,10 +29,10 @@ function App(){
 
   function colorPalette1(){
     document.getElementById('Mainpage-1').style.backgroundColor='#ffe3b0';
-    document.getElementById('About').style.backgroundColor='#8ed2c9';
-    document.getElementById('Skills').style.backgroundColor='#ffaaa5';
-    document.getElementById('Projects').style.backgroundColor='#dbd8e3';
-    document.getElementById('Footer').style.backgroundColor='#323643';
+    document.getElementById('About').style.backgroundColor='#fcff82';
+    document.getElementById('Skills').style.backgroundColor='#ffe3b0';
+    document.getElementById('Projects').style.backgroundColor='#fcff82';
+    document.getElementById('Footer').style.backgroundColor='#ffe3b0';
   }
 
   function colorPalette2(){
