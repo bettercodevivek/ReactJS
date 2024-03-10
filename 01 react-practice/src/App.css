@@ -22,7 +22,6 @@ html{
     height:100dvh;
     width:100dvw;
     z-index:0;
-    background:#e3f6f5;
 }
 .content-page-1{
     position:relative;
@@ -61,4 +60,21 @@ html{
     background:black;
     color:#eaf6f6;
 }
+.night-mode-button{
+    position:fixed;
+    z-index:999;
+    right:2rem;
+    top:33rem;
+    background:none;
+    border:none;
+}
+.night-mode{
+    height:10vh;
+    aspect-ratio:1/1;
+    border-radius:50%;
+    filter:drop-shadow(-1px 2px 6px rgba(0,0,0,1));
+}
 
+.night-mode-button:hover{
+    cursor:pointer;
+}

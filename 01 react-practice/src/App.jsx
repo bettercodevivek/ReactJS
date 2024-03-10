@@ -10,6 +10,7 @@ function App(){
    <div id="Mainpage-1" className="Mainpage-1">
     <Navbar />
     <div className="content-page-1">
+      <button className="night-mode-button" id="night-mode-button"><img className="night-mode" src="src/assets/night-with-stars-svgrepo-com.svg"></img></button>
       <div className="introduction-container">
      <h1 className="introduction-heading-1">Hello, I am 'Your-Name'.</h1>
      <h3 className="introduction-heading-3">I am a FrontEnd Developer.</h3>
@@ -24,7 +25,11 @@ function App(){
    </div>
   );
 
-}
+  // function nightMode(){
+  //   document.body.style.backgroundColor='#152744';
+  //   document.body.style.color='#FFF';
+  // }
 
+}
 
 export default App;
