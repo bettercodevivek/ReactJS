@@ -22,6 +22,10 @@ function App(){
     <Skills />
     <Projects />
     <Footer />
+    <div className="credits-container">
+    Powered by <span className="owner-name">BlinkFolio</span> , your go-to platform for hassle-free portfolio website creation.<br></br>
+     Unlock your creative potential and showcase your work effortlessly.<br></br> © 2024. All rights reserved.
+    </div>
    </div>
   );
 
