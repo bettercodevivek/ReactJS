@@ -18,8 +18,8 @@ function Projects(){
                      experience it with the power of React Native and OpenWeatherMap API. Download WeatherWise now for a smarter,
                       more informed approach to weather tracking. 🌦️📱 #WeatherWise #ReactNative #OpenWeatherMapAPI
                 </p>
-                <button className='project-github-button'>repository</button>
-                <button className='project-website-button'>live Project</button>
+              <a href='#'><button className='project-github-button'>repository</button></a>
+              <a href='#'><button className='project-website-button'>live Project</button></a>  
             </div>
             <div className='project-preview'>
                 <img className='project-screenshot' src='src\assets\project-1-demo-image.jpg'>
@@ -40,8 +40,8 @@ function Projects(){
                      experience it with the power of React Native and OpenWeatherMap API. Download WeatherWise now for a smarter,
                       more informed approach to weather tracking. 🌦️📱 #WeatherWise #ReactNative #OpenWeatherMapAPI
                 </p>
-                <button className='project-github-button'>repository</button>
-                <button className='project-website-button'>live Project</button>
+                <a href='#'><button className='project-github-button'>repository</button></a>
+              <a href='#'><button className='project-website-button'>live Project</button></a> 
             </div>
             <div className='project-preview'>
                 <img className='project-screenshot' src='src\assets\project-2-demo-image.jpg'></img>
@@ -61,8 +61,10 @@ function Projects(){
                      experience it with the power of React Native and OpenWeatherMap API. Download WeatherWise now for a smarter,
                       more informed approach to weather tracking. 🌦️📱 #WeatherWise #ReactNative #OpenWeatherMapAPI
                 </p>
-                <button className='project-github-button'>repository</button>
-                <button className='project-website-button'>live Project</button>
+                <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src='src/assets/github-142-svgrepo-com.svg'></img>
+                </button></a>
+              <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src='src/assets/'
+                </button></a> 
             </div>
             <div className='project-preview'>
                 <img className='project-screenshot' src='src\assets\project-3-demo-image.jpg'></img>
