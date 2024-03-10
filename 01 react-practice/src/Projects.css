@@ -2,9 +2,9 @@
     height:220dvh;
     width:100dvw;
     position:relative;
-    margin-top:17rem;
+    top:4rem;
     z-index:0;
-    background: #ffecda;
+    background:#e3f6f5;
 }
 
 .project-container-1,.project-container-3{
