@@ -1,10 +1,10 @@
 .projects-mainpage{
     height:220dvh;
     width:100dvw;
-    background:#ffe9e3;
     position:relative;
     margin-top:17rem;
     z-index:0;
+    background: #ffecda;
 }
 
 .project-container-1,.project-container-3{

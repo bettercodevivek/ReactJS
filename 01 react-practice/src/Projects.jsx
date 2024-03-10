@@ -18,6 +18,8 @@ function Projects(){
                      experience it with the power of React Native and OpenWeatherMap API. Download WeatherWise now for a smarter,
                       more informed approach to weather tracking. 🌦️📱 #WeatherWise #ReactNative #OpenWeatherMapAPI
                 </p>
+                <button className='project-github-button'>repository</button>
+                <button className='project-website-button'>live Project</button>
             </div>
             <div className='project-preview'>
                 <img className='project-screenshot' src='src\assets\project-1-demo-image.jpg'>
@@ -38,6 +40,8 @@ function Projects(){
                      experience it with the power of React Native and OpenWeatherMap API. Download WeatherWise now for a smarter,
                       more informed approach to weather tracking. 🌦️📱 #WeatherWise #ReactNative #OpenWeatherMapAPI
                 </p>
+                <button className='project-github-button'>repository</button>
+                <button className='project-website-button'>live Project</button>
             </div>
             <div className='project-preview'>
                 <img className='project-screenshot' src='src\assets\project-2-demo-image.jpg'></img>
@@ -57,6 +61,8 @@ function Projects(){
                      experience it with the power of React Native and OpenWeatherMap API. Download WeatherWise now for a smarter,
                       more informed approach to weather tracking. 🌦️📱 #WeatherWise #ReactNative #OpenWeatherMapAPI
                 </p>
+                <button className='project-github-button'>repository</button>
+                <button className='project-website-button'>live Project</button>
             </div>
             <div className='project-preview'>
                 <img className='project-screenshot' src='src\assets\project-3-demo-image.jpg'></img>
