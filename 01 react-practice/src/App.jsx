@@ -10,7 +10,6 @@ function App(){
    <div id="Mainpage-1" className="Mainpage-1">
     <Navbar />
     <div className="content-page-1">
-      <button className="night-mode-button" id="night-mode-button"><img className="night-mode" src="src/assets/night-with-stars-svgrepo-com.svg"></img></button>
       <div className="introduction-container">
      <h1 className="introduction-heading-1">Hello, I am 'Your-Name'.</h1>
      <h3 className="introduction-heading-3">I am a FrontEnd Developer.</h3>
@@ -23,8 +22,7 @@ function App(){
     <Projects />
     <Footer />
     <div className="credits-container">
-    Powered by <span className="owner-name">BlinkFolio</span> , your go-to platform for hassle-free portfolio website creation.<br></br>
-     Unlock your creative potential and showcase your work effortlessly.<br></br> © 2024. All rights reserved.
+    Built by <span className="owner-name">Vivek Singh </span><br></br> © 2024. All rights reserved.
     </div>
    </div>
   );
