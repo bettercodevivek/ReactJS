@@ -32,6 +32,7 @@
 .icon{
     height:16vh;
     object-fit:fill;
+    background:inherit;
 }
 .skill-item:hover{
     background:black;
