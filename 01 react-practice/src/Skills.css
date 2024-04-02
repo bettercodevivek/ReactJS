@@ -25,6 +25,7 @@
     border-radius:13px;
     display:flex;
     align-items:center;
+    background:inherit;
     justify-content: center;
     box-shadow:4px 4px 8px rgba(0,0,0.75);
 }

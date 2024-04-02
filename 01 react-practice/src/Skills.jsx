@@ -7,7 +7,7 @@ function Skills(){
         <div id="line2"></div>
         <div className='skills-container'>
             <div className='skill-item'>
-                <img className="icon" src="src\assets\git-svgrepo-com.svg " alt="GIT"></img>
+                <img className="icon" src="https://i.postimg.cc/V67z8BjD/git-svgrepo-com.png" alt="GIT"></img>
                 </div>
 
                 <div className='skill-item'>
