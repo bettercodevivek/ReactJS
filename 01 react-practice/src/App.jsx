@@ -8,7 +8,7 @@ import Projects from "./Projects";
 import Footer from "./Footer";
 import "./App.css";
 
-const Footer = () => {
+const footer1 = () => {
   const [githubInfo, setGitHubInfo] = useState({
     stars: null,
     forks: null,
@@ -18,7 +18,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/bchiang7/v4')
+    fetch('https://api.github.com/repos/bettercodevivek/ReactJS')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -47,26 +47,7 @@ function App(){
     <Skills />
     <Projects />
     <Footer />
-    <div className="credits-container">
-
-    <a href="https://github.com/bchiang7/v4">
-
-          <div>Designed &amp; Built by Brittany Chiang</div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <div className="github-stats">
-              <span>
-                <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-              </div>
-
-    </a>  
-   </div>
+    </div>
   );
 }
 
