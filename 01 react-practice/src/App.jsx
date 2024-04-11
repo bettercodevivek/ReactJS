@@ -22,7 +22,7 @@ function App(){
     <Projects />
     <Footer />
     <div className="credits-container">
-    Built by <span className="owner-name">Vivek Singh </span><br></br> © 2024. All rights reserved.
+    Designed and Developed by <br></br> <span className="owner-name"> Vivek Singh </span><img id="owner-github-link" src="src/assets/github-142-svgrepo-com.svg"></img><br></br>
     </div>
    </div>
   );
