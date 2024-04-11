@@ -47,6 +47,24 @@ function App(){
     <Skills />
     <Projects />
     <Footer />
+    <div className="credits-container">
+    <a href="https://github.com/bettercodevivek/ReactJS">
+          <div>Designed &amp; Built by Vivek Singh</div>
+
+          {githubInfo.stars && githubInfo.forks && (
+            <div className="github-stats">
+              <span>
+                <Icon name="Star" />
+                <span>{githubInfo.stars.toLocaleString()}</span>
+              </span>
+              <span>
+                <Icon name="Fork" />
+                <span>{githubInfo.forks.toLocaleString()}</span>
+              </span>
+            </div>
+          )}
+        </a>
+    </div>
     </div>
   );
 }
