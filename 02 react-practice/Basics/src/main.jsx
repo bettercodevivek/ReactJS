@@ -11,11 +11,13 @@ import Vivek from "./App";
 //   },
 //   children:'click me to visit google'
 // }
+const username='vivek';
 
 const reactElement = React.createElement(
   'a',
   {href:'https://www.google.com',target:'_blank'},
-  "mujhe click karoooooo!!!!!!"
+  "mujhe click karoooooo!!!!!!",
+  username
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
