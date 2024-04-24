@@ -1,15 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   
-  let counter=15;
+  let [counter,setcounter]=useState(15);
+
+  //let counter=15;
 
   const Addvalue = () =>{
     counter=counter+1;
-    alert('helo');
+     setcounter(counter);
   }
 
   return (
@@ -25,3 +25,7 @@ function App() {
 }
 
 export default App
+
+
+// Hooks are used because UI updation is controlled by react, so to resolve that react provides us with hooks to manipulate updation within UI.
+// Same when done through vanilla javascript is a tedious task
