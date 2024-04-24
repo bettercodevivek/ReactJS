@@ -3,28 +3,28 @@ import './App.css'
 
 function App() {
   
-  let [counter,setcounter]=useState(15);
+  let [Count,SetCount]=useState(0);
 
-  //let counter=15;
+  const increase = () => {
+    Count=Count+1;
+    SetCount(Count);
+  }
 
-  const Addvalue = () =>{
-    counter=counter+1;
-     setcounter(counter);
+  const decrease=()=>{
+    Count=Count-1;
+    SetCount(Count);
   }
 
   return (
     <>
-      <h1>Learning Hooks</h1>
-      <h2>Counter Value : {counter} </h2>
-      <button
-      onClick={Addvalue}>+ {counter}</button>
-      <br></br>
-      <button>-</button>
+    <h1> Count : {Count} </h1>
+    <button onClick={increase} onKeyUp={increase}>+1</button>
+    <button onClick={decrease} onKeyDown={decrease}>-1</button>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
 
 
 // Hooks are used because UI updation is controlled by react, so to resolve that react provides us with hooks to manipulate updation within UI.
