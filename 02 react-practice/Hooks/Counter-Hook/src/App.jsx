@@ -2,24 +2,26 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  
-  let [Count,SetCount]=useState(0);
 
-  const increase = () => {
-    Count=Count+1;
-    SetCount(Count);
+  let [Count,setCount]=useState(0);
+  function Adder(){
+      setCount(Count+1);
   }
-
-  const decrease=()=>{
-    Count=Count-1;
-    SetCount(Count);
+  function Subtracter(){
+    if(Count!=0){
+      setCount(Count-1);
+    }
+    else{
+       setCount(Count+1);
+    }
   }
-
-  return (
+  return(
     <>
-    <h1> Count : {Count} </h1>
-    <button onClick={increase} onKeyUp={increase}>+1</button>
-    <button onClick={decrease} onKeyDown={decrease}>-1</button>
+    <h1>hello everyone!!</h1>
+    <h2>I m learning React Hooks</h2>
+    <h1>Count:{Count}</h1>
+    <button onClick={Adder}>+1</button>
+    <button onClick={Subtracter}>-1</button>
     </>
   );
 };
