@@ -8,7 +8,8 @@ function App() {
   let counter=15;
 
   const Addvalue = () =>{
-    
+    counter=counter+1;
+    alert('helo');
   }
 
   return (
@@ -16,7 +17,7 @@ function App() {
       <h1>Learning Hooks</h1>
       <h2>Counter Value : {counter} </h2>
       <button
-      onClick={Addvalue}>+</button>
+      onClick={Addvalue}>+ {counter}</button>
       <br></br>
       <button>-</button>
     </>
