@@ -1,7 +1,8 @@
 
 import './App.css'
 
-function App() {
+function App(props) {
+  const myelement=<car brand='ford' />;
   return (
     <>
     <div class='flex flex-row justify-evenly items-center bg-teal-500 font-medium fixed top-0 left-0 w-screen h-12' >
@@ -13,6 +14,8 @@ function App() {
     </div>
 
     <input type='checkbox' class='accent-orange-600 relative top-10' ></input>
+
+     <h1>i m a {props.brand} </h1>
     </>
   )
 }
