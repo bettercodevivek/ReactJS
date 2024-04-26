@@ -1,12 +1,44 @@
 import './App.css'
 function App() {
+  let button=document.getElementsByTagName('button'); 
+  let background=document.body;
+  function bgChanger(value){
+    if(button[0].value=='red'){
+      background.style.backgroundColor='rgb(185 28 28)';
+    }
+    
+    if(button[0].value=='red'){
+      background.style.backgroundColor='rgb(185 28 28)';
+    }
+      
+    if(button[0].value=='red'){
+      background.style.backgroundColor='rgb(185 28 28)';
+    }
 
+    if(button[0].value=='red'){
+      background.style.backgroundColor='rgb(185 28 28)';
+    }
+
+
+    if(button[0].value=='red'){
+      background.style.backgroundColor='rgb(185 28 28)';
+    }
+
+
+
+    if(button[0].value=='red'){
+      background.style.backgroundColor='rgb(185 28 28)';
+    }
+
+  
+
+  }
 
   return (
     <div className='mainpage'>
      
      <div id='footer' class='flex flex-row justify-evenly items-center bg-zinc-500 p-4 rounded-3xl shadow-md'>
-      <button id='red' class='bg-red-700 p-4 rounded-xl'>red</button>
+      <button id='red' class='bg-red-700 p-4 rounded-xl' onClick={bgChanger} value={'red'}>red</button>
       <button id='blue' class='bg-blue-600 p-4 rounded-xl'>blue</button>
       <button id='green' class='bg-green-600 p-4 rounded-xl'>green</button>
       <button id='violet' class='bg-violet-700 p-4 rounded-xl'>violet</button>
