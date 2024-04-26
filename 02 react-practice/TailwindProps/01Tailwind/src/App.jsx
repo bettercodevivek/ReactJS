@@ -1,4 +1,4 @@
-
+import Card from './components/Card'
 import './App.css'
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
 
     <input type='checkbox' class='accent-orange-600 relative top-10' ></input>
 
-     
+     <Card username='vivek' btntext='hello everyone' />
+     <Card username='sam' btntext='hello everyone again' />
     </>
   )
 }
