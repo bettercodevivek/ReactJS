@@ -5,8 +5,18 @@ function App() {
 
   function Square() {
     const [value, setValue] = useState(null);
-  
+   
+
     function handleClick() {
+      
+
+      if(value==null){
+        setValue('o');
+      }
+      else{
+        setValue('x');
+      }
+
       setValue('x');
     }
   
