@@ -8,14 +8,6 @@ function App() {
    
 
     function handleClick() {
-      
-
-      if(value==null){
-        setValue('o');
-      }
-      else{
-        setValue('x');
-      }
 
       setValue('x');
     }
