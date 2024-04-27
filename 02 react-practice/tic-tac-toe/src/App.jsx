@@ -1,34 +1,37 @@
 import { useState } from 'react';
 import './App.css';
 
-function Square({value}){
-  function handleClick(){
-    value='X';
-  }
-  return(
-   <button className='square' onClick={handleClick}>{value}</button>
-  );
-}
-
 function App() {
+
+  const [state,setState]=useState('');
+
+  function Clicker(){
+    setState(state + 'X');
+  }
+
+  function Square({value}){
+    return(
+     <button className='square' onClick={Clicker}>{value}</button>
+    );
+  }
 
   return (
     <>
     <div id='container'>
       <div id='row-1'>
-        <Square value={1} />
-        <Square value={2} />
-        <Square value={3} />
+        <Square value={state} />
+        <Square value={state} />
+        <Square value={state} />
       </div>
       <div id='row-2'>
-      <Square value={4} />
-        <Square value={5} />
-        <Square value={6} />
+      <Square value={state} />
+        <Square value={state} />
+        <Square value={state} />
       </div>
       <div id='row-3'>
-      <Square value={7} />
-        <Square value={8} />
-        <Square value={9} />
+      <Square value={state} />
+        <Square value={state} />
+        <Square value={state} />
       </div>
     </div>
   
