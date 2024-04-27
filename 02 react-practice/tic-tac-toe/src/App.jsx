@@ -3,7 +3,7 @@ import './App.css';
 
 function Square({value}){
   function handleClick(){
-    console.log('clicked',{value});
+    value='X';
   }
   return(
    <button className='square' onClick={handleClick}>{value}</button>
