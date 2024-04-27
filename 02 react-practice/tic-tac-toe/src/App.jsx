@@ -2,8 +2,11 @@ import { useState } from 'react';
 import './App.css';
 
 function Square({value}){
+  function handleClick(){
+    console.log('clicked',{value});
+  }
   return(
-   <button className='square'>{value}</button>
+   <button className='square' onClick={handleClick}>{value}</button>
   );
 }
 
