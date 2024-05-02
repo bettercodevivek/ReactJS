@@ -122,9 +122,9 @@ function Projects({projectName1,projectName2,projectName3,ProjectDescription1,
               <p id='description-2' className='project-description'>
               {ProjectDescription2}
               </p>
-              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src={Projectgithuburl1}></img>
+              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src={Projectgithuburl2}></img>
               </button></a>
-            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src={ProjectLiveUrl1}></img>
+            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src={ProjectLiveUrl2}></img>
               </button></a> 
           </div>
           <div className='project-preview'>
@@ -138,9 +138,9 @@ function Projects({projectName1,projectName2,projectName3,ProjectDescription1,
               <p id='description-3' className='project-description'>
              {ProjectDescription3}
               </p>
-              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src={Projectgithuburl1}></img>
+              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src={Projectgithuburl3}></img>
               </button></a>
-            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src={ProjectLiveUrl1}></img>
+            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src={ProjectLiveUrl3}></img>
               </button></a>  
           </div>
           <div className='project-preview'>
@@ -172,6 +172,8 @@ function App(){
 ProjectDescription3='"React Recipe Finder" is a user-friendly web app powered by React, offering a vast recipe database for culinary enthusiasts. It enables easy search, filtering, and sorting, with detailed recipe pages including nutritional information. Users can save favorites, enjoy interactive cooking features, and access it seamlessly across devices.
 '
 Projectimageurl1='https://i.postimg.cc/rwNtMd2F/lautaro-andreani-xk-Baqlcqeb4-unsplash.jpg'
+
+Projectgithuburl2=''
   
 
 
