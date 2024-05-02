@@ -1,9 +1,9 @@
 import './navbar.css';
 
-function Navbar(){
+function Navbar(name){
     return (
         <div className="navbar">
-            <button className='name-logo'>Your Name</button>
+            <button className='name-logo'>{name}</button>
             <a href="#About">About</a>
             <a href="#Projects">Projects</a>
             <a href="#Skills">Skills</a>

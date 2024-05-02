@@ -9,7 +9,7 @@ import "./App.css";
 function App(){
   return (
    <div id="Mainpage-1" className="Mainpage-1">
-    <Navbar />
+    <Navbar name='vivek' />
     <div className="content-page-1">
       <div className="introduction-container">
      <h1 className="introduction-heading-1">Hello, I am 'Your-Name'.</h1>
