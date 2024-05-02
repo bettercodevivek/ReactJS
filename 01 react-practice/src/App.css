@@ -15,6 +15,40 @@ html{
     scroll-behavior: smooth;
    
 }
+.navbar{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:right;
+    background:inherit;
+    width:100dvw;
+    position:sticky;
+    top:2rem;
+    left:0;
+}
+
+.navbar a{
+    font-size:1.5rem;
+    padding-left:2rem;
+    padding-right:2.5rem;
+    text-decoration:none;
+    color:black;
+}
+
+.name-logo{
+    background:inherit;
+    border:none;
+    font-size:2rem;
+    margin-right:40dvw;
+}
+.name-logo:hover{
+    cursor:pointer;
+}
+
+.navbar a:hover{
+     text-decoration:underline;
+     transition:underline 0.25s ease-in-out;
+}
 .Mainpage-1{
     position:relative;
     left:-1rem;

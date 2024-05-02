@@ -1,6 +1,6 @@
-import './navbar.css';
 
-function Navbar(name){
+
+function Navbar({name}){
     return (
         <div className="navbar">
             <button className='name-logo'>{name}</button>
@@ -12,4 +12,3 @@ function Navbar(name){
     );
 }
 
-export default Navbar;
