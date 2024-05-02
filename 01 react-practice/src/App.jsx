@@ -92,7 +92,9 @@ function Skills({urlforskilllogo,altname}){
   );
 }
 
-function Projects({projectName,ProjectDescription,Projectimageurl,Projectgithuburl,ProjectLiveUrl}){
+function Projects({projectName1,projectName2,projectName3,ProjectDescription1,
+  ProjectDescription2,ProjectDescription3,Projectimageurl1,Projectimageurl2,Projectimageurl3,
+  Projectgithuburl,ProjectLiveUrl}){
   return (
    <div id='Projects' className='projects-mainpage'>
       <h1 className='Project-page-title'>PROJECTS</h1>
@@ -158,7 +160,7 @@ function App(){
     <Homepage name='Walter White' role='FrontEnd Developer' />
     <About majorName='computer science' languages='python,java and C++' />
     <Skills />
-    <Projects />
+    <Projects projectName='' />
     <Footer />
     </div>
   );
