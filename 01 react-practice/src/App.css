@@ -39,7 +39,7 @@ html{
     background:inherit;
     border:none;
     font-size:2rem;
-    margin-right:40dvw;
+    padding-right:30rem;
 }
 .name-logo:hover{
     cursor:pointer;
