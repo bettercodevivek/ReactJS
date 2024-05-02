@@ -122,9 +122,9 @@ function Projects({projectName1,projectName2,projectName3,ProjectDescription1,
               <p id='description-2' className='project-description'>
               {ProjectDescription2}
               </p>
-              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src='src/assets/github-142-svgrepo-com.svg'></img>
+              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src={Projectgithuburl1}></img>
               </button></a>
-            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src='src/assets/website-webpage-url-domain-svgrepo-com.svg'></img>
+            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src={ProjectLiveUrl1}></img>
               </button></a> 
           </div>
           <div className='project-preview'>
@@ -138,10 +138,10 @@ function Projects({projectName1,projectName2,projectName3,ProjectDescription1,
               <p id='description-3' className='project-description'>
              {ProjectDescription3}
               </p>
-              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src='src/assets/github-142-svgrepo-com.svg'></img>
+              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src={Projectgithuburl1}></img>
               </button></a>
-            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src='src/assets/website-webpage-url-domain-svgrepo-com.svg'></img>
-              </button></a> 
+            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src={ProjectLiveUrl1}></img>
+              </button></a>  
           </div>
           <div className='project-preview'>
               <img className='project-screenshot' src='src\assets\project-3-demo-image.jpg'></img>
