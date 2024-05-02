@@ -94,16 +94,16 @@ function Skills({urlforskilllogo,altname}){
 
 function Projects({projectName1,projectName2,projectName3,ProjectDescription1,
   ProjectDescription2,ProjectDescription3,Projectimageurl1,Projectimageurl2,Projectimageurl3,
-  Projectgithuburl,ProjectLiveUrl}){
+  Projectgithuburl1, Projectgithuburl2, Projectgithuburl3,ProjectLiveUrl1,ProjectLiveUrl2,ProjectLiveUrl3}){
   return (
    <div id='Projects' className='projects-mainpage'>
       <h1 className='Project-page-title'>PROJECTS</h1>
       <div id="line3"></div>
       <div className='project-container-1'>
           <div className='project-description-container'>
-              <h1 className='project-title'>{projectName}</h1>
+              <h1 className='project-title'>{projectName1}</h1>
               <p id='description-1' className='project-description'>
-                       {ProjectDescription}
+                       {ProjectDescription1}
               </p>
               <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src='src/assets/github-142-svgrepo-com.svg'></img>
               </button></a>
@@ -118,9 +118,9 @@ function Projects({projectName1,projectName2,projectName3,ProjectDescription1,
 
       <div className='project-container-2'>
           <div className='project-description-container'>
-              <h1 className='project-title'>{projectName}</h1>
+              <h1 className='project-title'>{projectName2}</h1>
               <p id='description-2' className='project-description'>
-              {ProjectDescription}
+              {ProjectDescription2}
               </p>
               <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src='src/assets/github-142-svgrepo-com.svg'></img>
               </button></a>
@@ -134,9 +134,9 @@ function Projects({projectName1,projectName2,projectName3,ProjectDescription1,
 
       <div className='project-container-3'>
           <div className='project-description-container'>
-              <h1 className='project-title'>{projectName}</h1>
+              <h1 className='project-title'>{projectName3}</h1>
               <p id='description-3' className='project-description'>
-             {ProjectDescription}
+             {ProjectDescription3}
               </p>
               <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src='src/assets/github-142-svgrepo-com.svg'></img>
               </button></a>
@@ -160,7 +160,32 @@ function App(){
     <Homepage name='Walter White' role='FrontEnd Developer' />
     <About majorName='computer science' languages='python,java and C++' />
     <Skills />
-    <Projects projectName='' />
+    <Projects projectName1='project-1' projectName2='project-2' projectName3='project-3'
+    ProjectDescription1='React Recipe Finder" is a user-friendly web app powered by React,
+     offering a vast recipe database for culinary enthusiasts. It enables easy search, 
+     filtering, and sorting, with detailed recipe pages including nutritional information.
+      Users can save favorites, enjoy interactive cooking features, and access it seamlessly across devices.'
+      ProjectDescription2='
+      "React Recipe Finder" is a user-friendly web app powered by React, offering a vast recipe database for culinary enthusiasts. It enables easy search, filtering, and sorting, with detailed recipe pages including nutritional information. Users can save favorites, enjoy interactive cooking features, and access it seamlessly across devices.
+
+'
+ProjectDescription3='"React Recipe Finder" is a user-friendly web app powered by React, offering a vast recipe database for culinary enthusiasts. It enables easy search, filtering, and sorting, with detailed recipe pages including nutritional information. Users can save favorites, enjoy interactive cooking features, and access it seamlessly across devices.
+
+
+
+
+
+
+'
+
+  
+
+
+
+
+
+
+    />
     <Footer />
     </div>
   );
