@@ -138,3 +138,42 @@ html{
 .github-stats{
     background:red;
 }
+
+.About-Mainpage{
+    position:relative;
+    height:85dvh;
+    width:100dvw;
+    top:11rem;
+    z-index:0;
+}
+
+.About-heading{
+    position:relative;
+    top:5vh;
+    text-align:center;
+}
+
+.about-para{
+    font-size:1.4rem;
+    text-align:justify;
+    width:70dvw;
+    margin-top:10vh;
+    letter-spacing:0.5px;
+}
+
+.about-paragraph-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+#line1{
+    height:0.6vh;
+    width:13vw;
+    background:black;
+    position:relative;
+    left: 43.5%;
+    top:0.5rem;
+}
+
