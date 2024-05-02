@@ -105,9 +105,9 @@ function Projects({projectName1,projectName2,projectName3,ProjectDescription1,
               <p id='description-1' className='project-description'>
                        {ProjectDescription1}
               </p>
-              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src='src/assets/github-142-svgrepo-com.svg'></img>
+              <a href='#'><button className='project-github-button'><img className='project-button-github-logo' src={Projectgithuburl1}></img>
               </button></a>
-            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src='src/assets/website-webpage-url-domain-svgrepo-com.svg'></img>
+            <a href='#'><button className='project-website-button'><img className='project-button-website-logo' src={ProjectLiveUrl1}></img>
               </button></a> 
           </div>
           <div className='project-preview'>
