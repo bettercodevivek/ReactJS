@@ -171,17 +171,7 @@ function App(){
 '
 ProjectDescription3='"React Recipe Finder" is a user-friendly web app powered by React, offering a vast recipe database for culinary enthusiasts. It enables easy search, filtering, and sorting, with detailed recipe pages including nutritional information. Users can save favorites, enjoy interactive cooking features, and access it seamlessly across devices.
 '
-Projectimageurl1='https://i.postimg.cc/rwNtMd2F/lautaro-andreani-xk-Baqlcqeb4-unsplash.jpg'
-
-Projectgithuburl2=''
-  
-
-
-
-
-
-
-    />
+Projectimageurl1='https://i.postimg.cc/rwNtMd2F/lautaro-andreani-xk-Baqlcqeb4-unsplash.jpg'/>
     <Footer />
     </div>
   );
