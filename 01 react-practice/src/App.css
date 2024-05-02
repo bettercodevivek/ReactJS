@@ -177,3 +177,58 @@ html{
     top:0.5rem;
 }
 
+.Skills-mainpage{
+    height:130dvh;
+    width:100dvw;
+    position:relative;
+    top:4rem;
+    z-index:0;
+}
+
+.skills-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    height:100dvh;
+    width:40dvw;
+    margin-left:30%;
+    margin-top:5%;
+}
+
+.skill-item{
+    height:20dvh; 
+    width:10vw;
+    border-style:solid;
+    border-radius:13px;
+    display:flex;
+    align-items:center;
+    background:inherit;
+    justify-content: center;
+    box-shadow:4px 4px 8px rgba(0,0,0.75);
+}
+.icon{
+    height:16vh;
+    object-fit:fill;
+    background:inherit;
+}
+.skill-item:hover{
+    background:black;
+    cursor:pointer;
+}
+
+.Skills-heading{
+    font-size:2rem;
+    text-align:center;
+    padding-top:3rem;
+}
+
+#line2{
+    height:0.4vh;
+    width:14vw;
+    background:black;
+    position:relative;
+    left: 43%;
+    top:-1.5rem;
+}
