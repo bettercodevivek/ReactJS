@@ -165,13 +165,13 @@ function Footer(mailaddress,githublink,linkedinLink,instagramLink){
      <a href={mailaddress}> <button className='Say-hello-button'>Say Hello</button></a>
       <div className='social-handle-container'>
           <a href='#' className='github-link' id='github-link'>
-              <img className='github-logo' src={githublink}></img>
+              <img className='github-logo' src={githublink} alt="Github"></img>
           </a>
           <a href='#' className='linkedin-link' id='linkedin-link'>
-              <img className='linkedin-logo' src={linkedinLink}></img>
+              <img className='linkedin-logo' src={linkedinLink} alt='Linkedin'></img>
           </a>
           <a href='#' className='instagram-link' id='instagram-link'>
-              <img className='instagram-logo' src={instagramLink}></img>
+              <img className='instagram-logo' src={instagramLink} alt='Instagram'></img>
           </a>
       </div>
       </div>
