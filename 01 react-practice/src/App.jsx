@@ -31,7 +31,7 @@ function Homepage({name,role}){
   );
 }
 
-function About(){
+function About({majorName,languages}){
   return(
  
    <div id='About' className='About-Mainpage'>
@@ -39,9 +39,9 @@ function About(){
     <div id="line1"></div>
     <div className='about-paragraph-container'>
     <p className="about-para">
-    Hey! <span>&#128075;</span> I'm a computer science undergrad on a mission to turn caffeine into code.
+    Hey! <span>&#128075;</span> I'm a {majorName} undergrad on a mission to turn caffeine into code.
      From hacking away at late-night coding sessions to unraveling the mysteries of algorithms, 
-     I thrive on the thrill of problem-solving. Fluent in the languages of Python, Java, and C++, 
+     I thrive on the thrill of problem-solving. Fluent in the languages of {languages}, 
      I've been on a journey of turning lines of code into functional and innovative solutions. 
      My portfolio is a blend of passion projects, where I've dived into the worlds of web development, 
      software design, and beyond. Whether it's building a sleek website or crafting algorithms that make you go "aha!",
@@ -61,7 +61,7 @@ function App(){
    <div id="Mainpage-1" className="Mainpage-1">
     <Navbar name='Walter White' />
     <Homepage name='Walter White' role='FrontEnd Developer' />
-    <About />
+    <About majorName='computer science' languages='python,java and C++' />
     <Skills />
     <Projects />
     <Footer />
