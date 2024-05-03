@@ -182,8 +182,8 @@ function Footer(mailaddress,githublink,linkedinLink,instagramLink){
 function App(){
   return (
    <div id="Mainpage-1" className="Mainpage-1">
-    <Navbar name='Walter White' />
-    <Homepage name='Walter White' role='FrontEnd Developer' />
+    <Navbar name='Rishabh Panwar' />
+    <Homepage name='Rishabh Panwar' role='BackEnd Developer' />
     <About majorName='computer science' languages='python,java and C++' />
     <Skills />
     <Projects projectName1='project-1' projectName2='project-2' projectName3='project-3'
