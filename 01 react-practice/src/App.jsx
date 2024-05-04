@@ -165,7 +165,7 @@ function Footer(mailaddress,githublink,linkedinLink,instagramLink){
      <a href={mailaddress}> <button className='Say-hello-button'>Say Hello</button></a>
       <div className='social-handle-container'>
           <a href='#' className='github-link' id='github-link'>
-              <img className='github-logo' src='https://freeimage.host/i/Jgy1riP' alt="Github"></img>
+          <a href="https://freeimage.host/i/Jgy1riP"><img src="https://iili.io/Jgy1riP.md.png" alt="Jgy1riP.md.png" border="0" /></a>
           </a>
           <a href='#' className='linkedin-link' id='linkedin-link'>
               <img className='linkedin-logo' src={linkedinLink} alt='Linkedin'></img>
