@@ -165,13 +165,13 @@ function Footer(mailaddress,githublink,linkedinLink,instagramLink){
      <a href={mailaddress}> <button className='Say-hello-button'>Say Hello</button></a>
       <div className='social-handle-container'>
           <a href='#' className='github-link' id='github-link'>
-          <a href="https://freeimage.host/i/Jgy1riP"><img src="https://iili.io/Jgy1riP.md.png" alt="Jgy1riP.md.png" border="0" /></a>
+          <a href="https://freeimage.host/i/Jgy1riP"><img className="github-logo" src="https://iili.io/Jgy1riP.md.png" alt="Github" border="0"/></a>
           </a>
           <a href='#' className='linkedin-link' id='linkedin-link'>
-              <img className='linkedin-logo' src={linkedinLink} alt='Linkedin'></img>
+          <a href="https://freeimage.host/i/JgyNYhu"><img className="linkedin-logo" src="https://iili.io/JgyNYhu.md.png" alt="LinkedIn" border="0"/></a>
           </a>
           <a href='#' className='instagram-link' id='instagram-link'>
-              <img className='instagram-logo' src='https://i.postimg.cc/gJ00sSyv/instagram-svgrepo-com.png'alt='Instagram'></img>
+          <a href="https://freeimage.host/i/JgyNaLb"><img className="instagram-logo" src="https://iili.io/JgyNaLb.md.png" alt="Instagram" border="0"/></a>
           </a>
       </div>
       </div>
