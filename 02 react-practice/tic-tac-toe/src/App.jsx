@@ -7,7 +7,7 @@ function App() {
     const [value, setValue] = useState(null);
    
      // This is a new updation to the code 
-     
+
     return (
       <button
         className="square"
@@ -17,6 +17,8 @@ function App() {
       </button>
     );
   }
+ 
+  // Another new addition to the code
 
   return (
     <>
