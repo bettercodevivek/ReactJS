@@ -6,12 +6,8 @@ function App() {
   function Square() {
     const [value, setValue] = useState(null);
    
-
-    function handleClick() {
-
-      setValue('x');
-    }
-  
+     // This is a new updation to the code 
+     
     return (
       <button
         className="square"
