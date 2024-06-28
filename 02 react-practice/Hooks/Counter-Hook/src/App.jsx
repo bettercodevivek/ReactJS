@@ -19,7 +19,7 @@ function App() {
   const [Color,setColor]=useState('white');
 
   function btnbgchnger(){
-    setColor('red');
+    setColor('green');
   }
   return(
     <>
