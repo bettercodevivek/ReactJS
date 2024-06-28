@@ -15,6 +15,12 @@ function App() {
        setCount(Count+1);
     }
   }
+
+  const [Color,setColor]=useState('white');
+
+  function btnbgchnger(){
+    setColor('red');
+  }
   return(
     <>
     <h1>hello everyone!!</h1>
@@ -22,6 +28,7 @@ function App() {
     <h1>Count:{Count}</h1>
     <button onClick={Adder}>+1</button>
     <button onClick={Subtracter}>-1</button>
+  <button style={{backgroundColor:Color}} onClick={btnbgchnger}>color</button>
     </>
   );
 };
