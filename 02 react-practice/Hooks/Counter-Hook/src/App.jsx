@@ -12,6 +12,8 @@ function App() {
      
     const[Count,SetCount]=useState(0);
     const[Message,SetMessage]=useState('');
+    const[Minutes,SetMinutes]=useState(0);
+
 
     useEffect(()=>{
       if(Count===0){
@@ -23,7 +25,8 @@ function App() {
       else{
         SetMessage('Keep Going !!!')
       }
-
+     
+       
     const interval = setInterval(()=>{
       SetCount(prevCount => prevCount+1);
     },1000);
@@ -35,7 +38,8 @@ function App() {
   
   return(
     <>
-    <p>Count is : {Count}</p>
+    <p>Minutes: {Minutes}</p>
+    <p>Seconds : {Count}</p>
     <p>Message is: {Message}</p>
     </>
   );
