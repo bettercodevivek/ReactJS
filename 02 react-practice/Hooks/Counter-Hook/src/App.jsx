@@ -12,7 +12,7 @@ function App() {
      
     const[Count,SetCount]=useState(0);
     const[Message,SetMessage]=useState('');
-    const[Minutes,SetMinutes]=useState(0);
+
 
 
     useEffect(()=>{
@@ -31,6 +31,7 @@ function App() {
       SetCount(prevCount => prevCount+1);
     },1000);
 
+
     return ()=> clearInterval(interval);
 
     },[Count]);
@@ -38,7 +39,6 @@ function App() {
   
   return(
     <>
-    <p>Minutes: {Minutes}</p>
     <p>Seconds : {Count}</p>
     <p>Message is: {Message}</p>
     </>
