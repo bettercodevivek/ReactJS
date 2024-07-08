@@ -10,37 +10,64 @@ function App() {
     //   document.title=`you clicked ${Count} times`
     // },[Count]);
      
-    const[Count,SetCount]=useState(0);
-    const[Message,SetMessage]=useState('');
+    // const[Count,SetCount]=useState(0);
+    // const[Message,SetMessage]=useState('');
 
 
 
-    useEffect(()=>{
-      if(Count===0){
-        SetMessage('Start Counting!!!');
-      }
-      else if(Count%5===0){
-        SetMessage('Damn that is fast!!!');
-      }
-      else{
-        SetMessage('Keep Going !!!')
-      }
+    // useEffect(()=>{
+    //   if(Count===0){
+    //     SetMessage('Start Counting!!!');
+    //   }
+    //   else if(Count%5===0){
+    //     SetMessage('Damn that is fast!!!');
+    //   }
+    //   else{
+    //     SetMessage('Keep Going !!!')
+    //   }
      
        
-    const interval = setInterval(()=>{
-      SetCount(prevCount => prevCount+1);
-    },1000);
+    // const interval = setInterval(()=>{
+    //   SetCount(prevCount => prevCount+1);
+    // },1000);
 
 
-    return ()=> clearInterval(interval);
+    // return ()=> clearInterval(interval);
 
+    // },[Count]);
+
+    const [Count,SetCount]=useState(1);
+
+    const[Color,SetColor]=useState('');
+
+    useEffect(()=>{
+      if(Count%2===0){
+        SetColor('red');
+      }
+      else if(Count==20){
+        SetColor('blue');
+      }
+      else if(Count==30){
+        SetColor('yellow');
+      }
+      else{
+        SetColor('pink');
+      }
+    
+      const interval = setInterval(()=>{
+        SetCount(prevCount=>prevCount+1);
+        console.log(Count);
+      },1000);
+      
+      return ()=> clearInterval(interval);
     },[Count]);
 
   
   return(
     <>
-    <p>Seconds : {Count}</p>
-    <p>Message is: {Message}</p>
+    <div style={{backgroundColor:Color}}>
+      hello everyone how are you
+    </div>
     </>
   );
 };
