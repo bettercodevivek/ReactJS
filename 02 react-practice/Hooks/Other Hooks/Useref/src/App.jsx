@@ -1,32 +1,35 @@
-import React, { useState,useRef } from 'react';
+import { useRef ,useState} from "react";
+import React from "react";
 
-function Stopwatch(){
+const Stopwatch=()=>{
+  
+  const[Seconds,SetSeconds]=useState(0);
 
-const [Seconds,SetSeconds]=useState(0);
-const intervalRef=useRef(null);
+  const Magic=useRef(null);
 
-const Start =()=>{
-  if(!intervalRef.current){
-    intervalRef.current=setInterval(()=>{
+  const Start=()=>{
+    Magic.current=setInterval(()=>{
       SetSeconds(prevSeconds=>prevSeconds+1);
     },1000);
   }
-};
+    
 
-const Stop = () => {
-  if (intervalRef.current) {
-    clearInterval(intervalRef.current);
-    intervalRef.current = null;
+  const Stop=()=>{
+    if(Magic.current){
+      clearInterval(Magic.current);
+      Magic.current=null;
+    }
   }
-};
 
- return(
-<>
-<h1>Seconds:{Seconds}</h1>
-<button onClick={Start}>Start</button>
-<button onClick={Stop}>Stop</button>
-</>
- );
+  return(
+    <>
+    <div>
+      <h1>{Seconds}</h1>
+      <button onClick={Start}>Start</button>
+      <button onClick={Stop}>Stop</button>
+    </div>
+    </>
+  );
 }
 
 export default Stopwatch;
