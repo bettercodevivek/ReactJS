@@ -4,18 +4,39 @@ import './App.css'
 function App() {
 
 
+    // const[Count,SetCount]=useState(0);
+
+    // useEffect(()=>{
+    //   document.title=`you clicked ${Count} times`
+    // },[Count]);
+     
     const[Count,SetCount]=useState(0);
+    const[Message,SetMessage]=useState('');
 
     useEffect(()=>{
-      document.title=`you clicked ${Count} times`
+      if(Count===0){
+        SetMessage('Start Counting!!!');
+      }
+      else if(Count%5===0){
+        SetMessage('Damn that is fast!!!');
+      }
+      else{
+        SetMessage('Keep Going !!!')
+      }
+
+    const interval = setInterval(()=>{
+      SetCount(prevCount => prevCount+1);
+    },1000);
+
+    return ()=> clearInterval(interval);
+
     },[Count]);
-     
+
   
   return(
     <>
-    <p>you clicked {Count} times</p>
-       <h1>Hello Everyone! I am Learning React Hooks</h1>
-       <button onClick={()=>{SetCount(Count+1)}}>{Count}</button>
+    <p>Count is : {Count}</p>
+    <p>Message is: {Message}</p>
     </>
   );
 };
