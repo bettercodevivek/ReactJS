@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
 
 function App() {
@@ -7,6 +7,12 @@ function App() {
   const[numallowed,Setnumallowed]=useState(false);
   const[charallowed,Setcharallowed]=useState(false);
   const[password,Setpassword]=useState("");
+  
+const passwordref=useRef(null);
+
+ const copytoclip = useCallback(()=>{
+  window.navigator.clipboard.writeText(password);
+ })
 
   const passwordgen = useCallback(()=>{
 
@@ -39,7 +45,7 @@ function App() {
       <div className=' relative max-w-md h-auto bg-green-500 rounded-xl shadow-lg'>
         <div>
           <input className='px-4 py-4 relative left-8 ' placeholder='enter your password' value={password} type='text'></input>
-          <button className='bg-black relative left-8 text-white px-4 py-4'>copy</button>
+          <button onClick={copytoclip} className='bg-black relative left-8 text-white px-4 py-4'>copy</button>
         </div>
         <div className=' '>
           <input onChange={(e)=>{Setlength(e.target.value)}} type='range' min={8} max={50} value={length} className='cursor-pointer'/>
