@@ -11,6 +11,7 @@ function App() {
 const passwordref=useRef(null);
 
  const copytoclip = useCallback(()=>{
+  passwordref.current?.select();
   window.navigator.clipboard.writeText(password);
  })
 
@@ -44,7 +45,7 @@ const passwordref=useRef(null);
       <h1 className='text-center text-3xl'>Password Generator</h1>
       <div className=' relative max-w-md h-auto bg-green-500 rounded-xl shadow-lg'>
         <div>
-          <input className='px-4 py-4 relative left-8 ' placeholder='enter your password' value={password} type='text'></input>
+          <input className='px-4 py-4 relative left-8 ' readOnly ref={passwordref} placeholder='enter your password' value={password} type='text'></input>
           <button onClick={copytoclip} className='bg-black relative left-8 text-white px-4 py-4'>copy</button>
         </div>
         <div className=' '>
