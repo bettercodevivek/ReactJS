@@ -48,7 +48,7 @@ useEffect(()=>{
     <h1 className="text-center text-5xl">Password Generator</h1>
     <div className="bg-gray-500 flex flex-row items-center justify-center relative top-48 max-w-sm min-h-lg">
       <div>
-        <input ref={Passref} type="text" readOnly value={Password}/>
+        <input ref={Passref } type="text" readOnly value={Password}/>
         <button onClick={copybutton}>Copy</button>
       </div>
       <div>
