@@ -6,13 +6,13 @@ const Mycontext=React.createContext();
 const Myprovider = ({children}) => {
     const [Count,SetCount]=useState(0);
 
-    const increment = ()=>{
-        SetCount((prevcount)=>(prevcount+1));
-    }
+    // const increment = ()=>{
+    //     SetCount((prevcount)=>(prevcount+1));
+    // }
 
-    const decrement = ()=>{
-        SetCount((prevcount)=>(prevcount-1));
-    }
+    // const decrement = ()=>{
+    //     SetCount((prevcount)=>(prevcount-1));
+    // }
 
     return(
         <Mycontext.Provider value={{Count,SetCount}}>
