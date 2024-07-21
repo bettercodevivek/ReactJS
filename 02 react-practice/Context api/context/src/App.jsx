@@ -1,7 +1,16 @@
+import Counter from "./Components/Counter";
 function App() {
 
   return (
-   <h1 className="text-5xl text-center text-semibold"> Theme Changer using context api</h1>
+    <div>
+    <h1 className="text-center text-4xl">
+      CONTEXT API
+   </h1>
+   <Counter/>
+   <Counter/>
+   <Counter/>
+   <Counter/>
+   </div>
   )
 }
 
