@@ -1,17 +1,16 @@
-import React from 'react';
-import { useTheme } from '../Context/Themecontext';
+import React from "react";
+import { useTheme } from "../Context/Themecontext";
 
-const ThemeToggle = () => {
-  const { theme, toggleTheme } = useTheme();
 
-  return (
-    <button
-      onClick={toggleTheme}
-      className="p-2 bg-blue-500 text-white rounded"
-    >
-      Switch to {theme === 'light' ? 'dark' : 'light'} theme
-    </button>
+const Toggler = ()=>{
+
+  const {Theme,ThemeToggler}=useTheme();
+
+  return(
+     <button onClick={ThemeToggler} className="bg-blue-500 text-white px-4 py-4 rounded-lg">
+      Change to:{Theme === 'light' ? 'dark' : 'light'}
+     </button>
   );
-};
+}
 
-export default ThemeToggle;
+export default Toggler;
